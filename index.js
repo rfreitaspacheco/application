@@ -1,6 +1,6 @@
 import express from "express";
 import winston from "winston";
-
+//iniciando express
 const app = express();
 
 app.use(express.json());
