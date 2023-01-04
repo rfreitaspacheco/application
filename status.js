@@ -8,7 +8,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   throw new Error("Error message test");
 });
-
+//changde
 app.use((err, req, res, next) => {
   console.log("Error 1");
   res.status(500).send("Ocorreu um erro");
