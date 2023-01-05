@@ -13,6 +13,7 @@ app.use((err, req, res, next) => {
   console.log("Error 1");
   res.status(500).send("Ocorreu um erro");
 });
+//making another gange
 
 app.all("/testAll", (req, res) => {
   res.send(req.method);
